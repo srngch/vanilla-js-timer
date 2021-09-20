@@ -25,5 +25,9 @@ body {
 
 #timeBar-left {
   height: 100%;
+  width: 100%;
   background-color: skyblue;
+  -webkit-transition: width 2s, -webkit-transform 2s;
+  transition: width 2s, transform 2s;
+  transition-timing-function: cubic-bezier(0, 0, 0.5, 0.5);
 }
