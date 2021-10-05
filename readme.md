@@ -2,6 +2,9 @@
 
 A simple counter app in vanilla JavaScript.
 
+## Deployment
+[https://srngch.github.io/vanilla-js-timer/](https://srngch.github.io/vanilla-js-timer/)
+
 ## Requirements Specification
 
 - Make an input box for time
