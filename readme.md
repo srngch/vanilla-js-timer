@@ -11,6 +11,7 @@ A simple counter app in vanilla JavaScript.
 ## Todo
 - [x] Limit the maximum value(hour: 23, minute: 59, minute: 59)
 - [x] Automatic move to the next input
+- [x] Fix a problem the tap key doesn't work in input boxes.
 - [ ] Modify interval in milliseconds for smooth timebar animation
 - [ ] Remove the transition effect when reset button:`transition: none`
 - [ ] Modify the entire style

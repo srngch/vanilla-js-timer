@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Timer</title>
-  </head>
-  <body>
-    <form name="timeForm" id="input_time">
-      <input
-        type="number"
-        name="hours"
-        id="inputHours"
-        placeholder="00"
-        min="0"
-        max="23"
-        maxlength="2"
-      />
-      <input
-        type="number"
-        name="minutes"
-        id="inputMinutes"
-        placeholder="00"
-        min="0"
-        max="59"
-        maxlength="2"
-      />
-      <input
-        type="number"
-        name="seconds"
-        id="inputSeconds"
-        placeholder="00"
-        min="0"
-        max="59"
-        maxlength="2"
-      />
-      <button type="submit">입력</button>
-    </form>
-    <section class="display">
-      <div class="display_hour">00</div>
-      <div>:</div>
-      <div class="display_min">00</div>
-      <div>:</div>
-      <div class="display_sec">00</div>
-    </section>
-    <section class="bar">
-      <div id="timeBar" data-percent="100">
-        <div id="timeBar-left"></div>
-      </div>
-    </section>
-    <section class="controls">
-      <button id="startPauseResume">시작</button>
-      <button id="reset">초기화</button>
-    </section>
-    <!-- <script src="script.js"></script> -->
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Timer</title>
+	</head>
+	<body>
+		<form name="timeForm" id="input_time">
+			<input
+				type="number"
+				name="hours"
+				id="inputHours"
+				placeholder="00"
+				min="0"
+				max="23"
+				maxlength="2"
+			/>
+			<input
+				type="number"
+				name="minutes"
+				id="inputMinutes"
+				placeholder="00"
+				min="0"
+				max="59"
+				maxlength="2"
+			/>
+			<input
+				type="number"
+				name="seconds"
+				id="inputSeconds"
+				placeholder="00"
+				min="0"
+				max="59"
+				maxlength="2"
+			/>
+			<button type="submit">입력</button>
+		</form>
+		<section class="display">
+			<div class="display_hour">00</div>
+			<div>:</div>
+			<div class="display_min">00</div>
+			<div>:</div>
+			<div class="display_sec">00</div>
+		</section>
+		<section class="bar">
+			<div id="timeBar" data-percent="100">
+				<div id="timeBar-left"></div>
+			</div>
+		</section>
+		<section class="controls">
+			<button id="startPauseResume">시작</button>
+			<button id="reset">초기화</button>
+		</section>
+		<!-- <script src="script.js"></script> -->
+		<script src="script.js"></script>
+	</body>
 </html>
